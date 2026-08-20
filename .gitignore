@@ -1,0 +1,27 @@
+# === 환경변수 / API 키 / 인증정보 ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.ppk
+.ssh/
+credentials
+credentials.*
+*.credentials
+*.secret
+secrets/
+
+# === OS ===
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# === 임시 / 로그 / 백업 ===
+*.log
+*.tmp
+*.bak
